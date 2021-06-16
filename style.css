@@ -1,0 +1,170 @@
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins1:wght@200&display=swap');
+
+html * {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+body {
+    display: grid;
+    grid-template-collumns: 1fr;
+}
+
+#conteudo {
+    background-image: url("1.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    grid-column: span 1;
+}
+
+#cabeca {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    background-color: rgb(17,17,17);
+    color: white;
+    grid-column: span 1;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+
+#cabeca a {
+    align-content: center;
+    justify-items: center;
+    font-family: 'Oswald';
+    padding-bottom: 40px;
+    padding: 40px 20px;
+    grid-column: span 1;
+}
+
+h1 {
+    font-family: 'Squada One';
+    text-align: center;
+    font-size: 100px;
+}
+
+main {
+    grid-column: span 1;
+}
+
+p {
+}
+
+#texto {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-gap: 150px;
+    width: 95%;
+    margin: auto;
+}
+
+#texto p {
+    font-family: 'Poppins';
+    text-align: center;
+    width: 85%;
+    margin: auto;
+    grid-column: span 2;
+    padding: 50px;
+}
+
+#atirador {
+    background-image: url("atirador.png");
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0px;
+}
+
+#assassino {
+    background-image: url("assassino.png");
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0px;
+}
+
+#suporte {
+    background-image: url("suporte.png");
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0px;
+}
+
+#lutador {
+    background-image: url("lutador.png");
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0px;
+}
+
+#mago {
+    background-image: url("mago.png");
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0px;
+}
+
+#tanque {
+    background-image: url("tanque.png");
+    background-size: 45%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0px;
+}
+
+footer {
+    padding: 20px;
+    margin: 0px;
+    border: 0px;
+    background-color: rgb(17,17,17);
+    grid-column: span 1;
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: 5fr 3fr 5fr;
+    color: white;
+}
+
+footer h2 {
+    grid-column: 2/3;
+    text-align: center;
+    font-family: poppings1;
+}
+
+footer img {
+    width: 75%;
+    margin: auto;
+    display: block;
+}
+
+footer a {
+    grid-column: 2/3;
+}
+
+a {
+    align-content: center;
+    justify-items: center;
+    font-family: 'Oswald';
+    padding-bottom: 40px;
+    padding: 40px 20px;
+    grid-column: span 1;
+    color: white;
+    text-decoration: none;
+    align-content:;
+}
